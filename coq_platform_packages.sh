@@ -61,6 +61,9 @@ PACKAGES="${PACKAGES} coq-mathcomp-bigenough.1.0.0"
 PACKAGES="${PACKAGES} coq-mathcomp-finmap.1.5.1"
 PACKAGES="${PACKAGES} coq-mathcomp-real-closed.1.1.2"
 
+# Include SerAPI packages for Waterproof
+PACKAGES="${PACKAGES} coq-serapi"
+
 # Menhir, CompCert and Princeton VST - these take longer to compile !
 PACKAGES="${PACKAGES} coq-menhirlib.20200624 menhir.20200624"
 # Todo: there is no mutex between coq platform and coq platform open source
